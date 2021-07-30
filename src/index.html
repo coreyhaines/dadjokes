@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"></meta>
+    <link rel="canonical" href="https://dadjokes.coreyhaines.com"></meta>
+    <meta property="og:url" content="https://dadjokes.coreyhaines.com"></meta>
+    <meta property="og:type" content="website"></meta>
+    <meta property="og:title" content="Dad Jokes Repository"></meta>
+    <meta property="og:description" content="The internet's premier source for getting a dad joke."></meta>
+    <meta name="twitter:card" content="summary"></meta>
+    <meta name="twitter:title" content="Dad Jokes Repository"></meta>
+    <meta name="twitter:description" content="The internet's premier source for getting a dad joke."></meta>
+    <meta name="twitter:creator" content="@coreyhaines"></meta>
+    <meta name="twitter:image:alt" content="Dad Jokes Repository"></meta>
+    <title>Dad Jokes</title>
+
+    <script src="./app.ts"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./app.scss"></link>
+  </head>
+  <body>
+    <section class="hero is-small is-info">
+      <div class="hero-body has-text-centered">
+          <div class="title">
+          Dad Jokes
+          </div>
+          <div class="subtitle">
+            Brought to you with &#10084;&#65039;<br /><a href='https://twitter.com/coreyhaines'>Corey Haines</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class='container'>
+      <div class='card'>
+        <div class='card-content'>
+          <p id='joke-text' class="title"></p>
+          <p id='show-answer-container' class='subtitle mt-6'>
+            <button id='show-answer' class='button'>Show Answer</button>
+          </p>
+          <p id='joke-answer' class='subtitle'></p>
+        </div>
+        <div class='card-footer pt-5 pb-5 pl-5'>
+          <button id='next-joke' class='button'>Click For Another Joke</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

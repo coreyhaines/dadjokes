@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAAA,aACE,YAAa","file":"app.ce5cb79f.css","sourceRoot":"../src","sourcesContent":["#joke-answer {\n  display: none;\n}\n"]}
